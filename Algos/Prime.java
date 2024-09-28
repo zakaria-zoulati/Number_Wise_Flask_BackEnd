@@ -1,5 +1,5 @@
 public class Prime {
-    public boolean isPrim(int n) {
+    public boolean isPrime(int n) {
         if (n < 2) {
             return false; 
         }
