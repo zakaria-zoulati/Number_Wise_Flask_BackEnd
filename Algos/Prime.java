@@ -34,6 +34,9 @@ public class Prime {
             if( isMersennePrine(n) ){
                 System.out.println("The number "+n+" Is a Mersenne Prime") ; 
             }
+            if( p.isPrime( 2 * n + 1 ) ){
+                System.out.println( n + " Is a Sophie Germain prime" ) ; 
+            }
         } else {
             System.out.println("The number " + n + "is a composite number");
         }
