@@ -1,4 +1,31 @@
 public class Prime {
+
+    public static int sumOfDigits(int number) {
+        int sum = 0;
+        while (number > 0) {
+            sum += number % 10;
+            number /= 10;
+        }
+        return sum;
+    }
+
+    public static boolean isSmithNumber(int number) {
+        int digitSum = sumOfDigits(number);
+        int p  = primeFactorSum(number);
+        return digitSum == p;
+    }
+
+    static int primeFactorSum(int n) {
+        int sum = 0;
+        for (int i = 2; i <= n; i++) {
+            while (n % i == 0) {
+                sum += sumOfDigits(i);
+                n /= i;
+            }
+        }
+        return sum;
+    }
+
     public boolean isPrime(int n) {
         if (n < 2) {
             return false; 
@@ -27,7 +54,7 @@ public class Prime {
         return num == 1 && power > 0;
     }
     public static void main(String[] args) {
-        int n = 113;
+        int n = 4937775 ;
         Prime p = new Prime();
         if (p.isPrime(n)) {
             System.out.println("The number " + n + " is prime");
@@ -38,7 +65,10 @@ public class Prime {
                 System.out.println( n + " Is a Sophie Germain prime" ) ; 
             }
         } else {
-            System.out.println("The number " + n + "is a composite number");
+            System.out.println("The number " + n + " is a composite number");
+            if( isSmithNumber(n) ){
+                System.out.println("The number "+n+" is a Smith number");
+            }
         }
     }
 }
