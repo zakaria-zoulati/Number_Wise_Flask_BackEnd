@@ -19,10 +19,10 @@ public class Prime {
     public static void main(String[] args) {
         int n = 113;
         Prime p = new Prime();
-        if (p.isPrim(n)) {
-            System.err.println("Yes, the number " + n + " is prime");
+        if (p.isPrime(n)) {
+            System.out.println("Yes, the number " + n + " is prime");
         } else {
-            System.err.println("The number " + n + " is not prime");
+            System.out.println("The number " + n + "is a composite number");
         }
     }
 }
