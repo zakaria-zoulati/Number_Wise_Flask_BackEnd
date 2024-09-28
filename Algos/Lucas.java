@@ -10,7 +10,6 @@ public class Lucas {
         if (number == a || number == b) {
             return true; 
         }
-
         int lucasNumber = 0;
         while (lucasNumber < number) {
             lucasNumber = a + b; 
@@ -26,7 +25,6 @@ public class Lucas {
 
     public static void main(String[] args) {
         int n = 11; 
-
         if (isLucas(n)) {
             System.out.println(n + " is a Lucas number.");
         } else {
