@@ -1,7 +1,7 @@
 public class Perfect {
 	static boolean isPerfect(int n){
 		if (n == 1)
-			return false;
+			return false ;
 		int sum = 1;
 		for (int i = 2; i < n; i++) {
 
