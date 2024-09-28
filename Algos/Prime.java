@@ -16,11 +16,24 @@ public class Prime {
         }
         return true;
     }
+
+    public static boolean isMersennePrine( int n  ){
+        int power = 0;
+        int num = n + 1;  
+        while (num % 2 == 0) {
+            num /= 2;
+            power++;
+        }
+        return num == 1 && power > 0;
+    }
     public static void main(String[] args) {
         int n = 113;
         Prime p = new Prime();
         if (p.isPrime(n)) {
-            System.out.println("Yes, the number " + n + " is prime");
+            System.out.println("The number " + n + " is prime");
+            if( isMersennePrine(n) ){
+                System.out.println("The number "+n+" Is a Mersenne Prime") ; 
+            }
         } else {
             System.out.println("The number " + n + "is a composite number");
         }
