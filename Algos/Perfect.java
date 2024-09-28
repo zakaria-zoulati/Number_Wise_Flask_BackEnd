@@ -14,13 +14,11 @@ public class Perfect {
 		return false;
 	}
 
-	public static void main(String[] args)
-	{
+	public static void main(String[] args){
 		int n = 6;
 		if (isPerfect(n))
 			System.out.println(n + " is a perfect number");
 		else
-			System.out.println(
-				n + " is not a perfect number");
+			System.out.println(	n + " is not a perfect number");
 	}
 }
