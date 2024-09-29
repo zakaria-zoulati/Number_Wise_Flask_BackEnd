@@ -1,3 +1,9 @@
+"""
+To simply Checkouts The Unit Tests Yiu can Just Run :
+>> pytest PythonAlgos.py 
+
+"""
+
 # Cheks Either a number is prime or not .
 def is_prime(n):
     if n <= 1:
