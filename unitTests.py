@@ -3,7 +3,7 @@ This is Where I gonna define all The unit tests .
 
 """
 
-from PythonAlgos import is_prime , is_palindromic , is_fibonacci , is_Lucas , is_triangular , is_perfect_square , is_pronic , is_polite , is_perfect , is_pentatope , is_pentagonal , is_octagonal , is_icosahedral , is_harshad , is_fermat , is_even , is_deficient , is_cullen , is_catalan ,is_automorphic , is_sphenic
+from PythonAlgos import is_prime , is_palindromic , is_fibonacci , is_Lucas , is_triangular , is_perfect_square , is_pronic , is_polite , is_perfect , is_pentatope , is_pentagonal , is_octagonal , is_icosahedral , is_harshad , is_fermat , is_even , is_deficient , is_cullen , is_catalan ,is_automorphic , is_sphenic , sum_of_digits
 
 # The Test Number : 1 
 def test_is_prime() : 
@@ -159,8 +159,11 @@ def test_is_sphenic( ) :
     assert is_sphenic(2) == False 
     assert is_sphenic(150) == False 
 
-
-
+# This is The test : 22 
+def test_sum_of_digits() :
+    assert sum_of_digits(10) == 1 
+    assert sum_of_digits(11111) == 5
+    assert sum_of_digits(9155) == 20
 
 
 
