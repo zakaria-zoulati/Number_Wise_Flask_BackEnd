@@ -4,7 +4,6 @@ public class Pronic {
         if (number < 0) {
             return false;
         }
-
         for (int n = 0; n * (n + 1) <= number; n++) {
             if (n * (n + 1) == number) {
                 return true; 

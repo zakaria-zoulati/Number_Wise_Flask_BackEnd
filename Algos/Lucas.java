@@ -3,10 +3,8 @@ public class Lucas {
         if (number < 0) {
             return false; 
         }
-
         int a = 2; 
         int b = 1; 
-
         if (number == a || number == b) {
             return true; 
         }

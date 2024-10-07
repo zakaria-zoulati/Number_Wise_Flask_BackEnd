@@ -3,7 +3,6 @@ public class Pentatope {
         if (number < 0) {
             return false; 
         }
-
         for (int n = 0; ; n++) {
             int pentatope = (n * (n + 1) * (n + 2) * (n + 3)) / 24;
             if (pentatope == number) {
