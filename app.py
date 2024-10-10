@@ -1,8 +1,8 @@
 from flask import Flask , request , jsonify
-from PythonAlgos import is_prime , is_palindromic , is_fibonacci , is_Lucas , is_triangular , is_pronic , is_polite , is_perfect , is_pentatope , is_pentagonal , is_octagonal , is_icosahedral , is_harshad , is_fermat , is_even,  is_deficient , is_cullen , is_catalan , is_automorphic
+from PythonAlgos import is_prime , is_palindromic , is_fibonacci , is_Lucas , is_triangular , is_pronic , is_polite , is_perfect , is_pentatope , is_pentagonal , is_octagonal , is_icosahedral , is_harshad , is_fermat , is_even,  is_deficient , is_cullen , is_catalan , is_automorphic , is_sphenic
 app = Flask(__name__)
 
-@app.route('/is_prime', methods=['GET'])
+@app.route('/isPrime', methods=['GET'])
 def check_prime():
     try:
         number = int(request.args.get('number'))
@@ -16,7 +16,7 @@ def check_prime():
 
 
 
-@app.route("/is_palindromic" , methods=['GET']) 
+@app.route("/isPalindromic" , methods=['GET']) 
 def check_palindrom() :
     try :
         number = int( request.args.get('number') )
@@ -31,7 +31,7 @@ def check_palindrom() :
 
 
 
-@app.route("/is_fibonacci" , methods=['GET']) 
+@app.route("/isFibonacci" , methods=['GET']) 
 def check_fibo() :
     try :
         number = int( request.args.get('number') )
@@ -45,7 +45,7 @@ def check_fibo() :
         return jsonify({"error": "Invalid input. Please provide an integer."}), 400
     
 
-@app.route("/is_lucas" , methods=['GET']) 
+@app.route("/isLucas" , methods=['GET']) 
 def check_is_lucas() :
     try :
         number = int( request.args.get('number') )
@@ -59,7 +59,7 @@ def check_is_lucas() :
         return jsonify({"error": "Invalid input. Please provide an integer."}), 400
     
 
-@app.route("/is_triangular" , methods=['GET']) 
+@app.route("/isTriangular" , methods=['GET']) 
 def check_triangular() :
     try :
         number = int( request.args.get('number') )
@@ -73,7 +73,7 @@ def check_triangular() :
     
 
 
-@app.route("/is_pronic" , methods=['GET']) 
+@app.route("/isPronic" , methods=['GET']) 
 def check_pronic() :
     try :
         number = int( request.args.get('number') )
@@ -87,7 +87,7 @@ def check_pronic() :
     
 
 
-@app.route("/is_polite" , methods=['GET']) 
+@app.route("/isPolite" , methods=['GET']) 
 def check_polite() :
     try :
         number = int( request.args.get('number') )
@@ -102,7 +102,7 @@ def check_polite() :
 
 
     
-@app.route("/is_perfect" , methods=['GET']) 
+@app.route("/isPerfect" , methods=['GET']) 
 def check_perefct() :
     try :
         number = int( request.args.get('number') )
@@ -117,7 +117,7 @@ def check_perefct() :
 
 
 
-@app.route("/is_pentatope" , methods=['GET']) 
+@app.route("/isPentatope" , methods=['GET']) 
 def check_pentatope() :
     try :
         number = int( request.args.get('number') )
@@ -130,20 +130,20 @@ def check_pentatope() :
         return jsonify({"error": "Invalid input. Please provide an integer."}), 400
 
 
-@app.route("/is_pentagonal" , methods=['GET']) 
+@app.route("/isPentagonal" , methods=['GET']) 
 def check_pentagonal() :
     try :
         number = int( request.args.get('number') )
         if is_pentagonal(number) : 
             return jsonify({"message": f"{number} is a Pentagonal number"})
         else : 
-             return jsonify({"message": f"{number} is Not a Penatgonal number"})
+             return jsonify({"message": f"{number} is Not a Pentagonal number"})
             
     except ValueError :
         return jsonify({"error": "Invalid input. Please provide an integer."}), 400
 
 
-@app.route("/is_ocatgonal" , methods=['GET']) 
+@app.route("/isOctagonal" , methods=['GET']) 
 def check_octagonal() :
     try :
         number = int( request.args.get('number') )
@@ -157,7 +157,7 @@ def check_octagonal() :
 
 
 
-@app.route("/is_icosahedral" , methods=['GET']) 
+@app.route("/isIcosahedral" , methods=['GET']) 
 def check_icosahedral() :
     try :
         number = int( request.args.get('number') )
@@ -170,7 +170,7 @@ def check_icosahedral() :
         return jsonify({"error": "Invalid input. Please provide an integer."}), 400
 
 
-@app.route("/is_harshad" , methods=['GET']) 
+@app.route("/isHarshad" , methods=['GET']) 
 def check_harshad() :
     try :
         number = int( request.args.get('number') )
@@ -183,7 +183,7 @@ def check_harshad() :
         return jsonify({"error": "Invalid input. Please provide an integer."}), 400
 
 
-@app.route("/is_fermat" , methods=['GET']) 
+@app.route("/isFermat" , methods=['GET']) 
 def check_fermat() :
     try :
         number = int( request.args.get('number') )
@@ -196,7 +196,7 @@ def check_fermat() :
         return jsonify({"error": "Invalid input. Please provide an integer."}), 400
 
 
-@app.route("/is_even" , methods=['GET']) 
+@app.route("/isEven" , methods=['GET']) 
 def check_even() :
     try :
         number = int( request.args.get('number') )
@@ -208,7 +208,7 @@ def check_even() :
     except ValueError :
         return jsonify({"error": "Invalid input. Please provide an integer."}), 400
     
-@app.route("/is_deficient" , methods=['GET']) 
+@app.route("/isDeficient" , methods=['GET']) 
 def check_deficient() :
     try :
         number = int( request.args.get('number') )
@@ -222,7 +222,7 @@ def check_deficient() :
 
 
 
-@app.route("/is_cullen" , methods=['GET']) 
+@app.route("/isCullen" , methods=['GET']) 
 def check_cullen() :
     try :
         number = int( request.args.get('number') )
@@ -235,7 +235,7 @@ def check_cullen() :
         return jsonify({"error": "Invalid input. Please provide an integer."}), 400
 
 
-@app.route("/is_catalan" , methods=['GET']) 
+@app.route("/isCatalan" , methods=['GET']) 
 def check_catalan() :
     try :
         number = int( request.args.get('number') )
@@ -247,7 +247,7 @@ def check_catalan() :
     except ValueError :
         return jsonify({"error": "Invalid input. Please provide an integer."}), 400
 
-@app.route("/is_automorphic" , methods=['GET']) 
+@app.route("/isAutomorphic" , methods=['GET']) 
 def check_automorphic() :
     try :
         number = int( request.args.get('number') )
@@ -255,6 +255,18 @@ def check_automorphic() :
             return jsonify({"message": f"{number} is an Automorphic number"})
         else : 
              return jsonify({"message": f"{number} is not an Automorphic number"})
+            
+    except ValueError :
+        return jsonify({"error": "Invalid input. Please provide an integer."}), 400
+    
+@app.route("/isSphenic" , methods=['GET']) 
+def check_sphenic() :
+    try :
+        number = int( request.args.get('number') )
+        if is_sphenic(number) : 
+            return jsonify({"message": f"{number} is a Sphenic number"})
+        else : 
+             return jsonify({"message": f"{number} is not a Sphenic number"})
             
     except ValueError :
         return jsonify({"error": "Invalid input. Please provide an integer."}), 400

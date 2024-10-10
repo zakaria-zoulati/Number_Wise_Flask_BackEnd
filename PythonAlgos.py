@@ -10,7 +10,6 @@ from utilities import is_perfect_square , sum_of_digits
 import math 
 
 
-
 # This is The algo : 1 
 def is_prime(n):
     if n <= 1:
@@ -241,8 +240,4 @@ def is_sphenic(n):
         prime_factors.append(n)
 
     return len(prime_factors) == 3
-
-
-
-
 
