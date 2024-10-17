@@ -4,6 +4,11 @@
 
 
 ### Commands Overview 
+<style>
+  *{ 
+    border : 5px solid white ; 
+  }
+</style>
 
 <div style="text-align: center; margin-bottom: 20px;">
   <img src="./docs/c1.png" alt="Image 1" style="margin-bottom: 50px; width: 800px;">
