@@ -26,7 +26,7 @@ The project leverages the following technologies:
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/Number_Wise_Flask_BackEnd.git
+    git clone https://github.com/zakaria-zoulati/Number_Wise_Flask_BackEnd.git
     cd Number_Wise_Flask_BackEnd
     ```
 
@@ -48,92 +48,25 @@ The project leverages the following technologies:
 
 ## Algorithms Used
 
-### 1. Prime Number Check
-   - Determines if a number is prime using trial division.
-   - Optimized to check divisors up to the square root of the number.
+### Number Theory Algorithms
 
-### 2. Factorial Calculation
-   - Computes the factorial of a number using iterative or recursive methods.
-
-### 3. Even/Odd Check
-   - Simple modulus operation to determine if a number is even or odd.
-
-### 4. Sum of Numbers
-   - Aggregates a list of numbers using Python's built-in `sum()` function.
-
-## API Endpoints
-
-### 1. **GET /api/number-info**
-    - **Description**: Fetches information about a given number.
-    - **Query Parameters**:
-      - `number` (required): The number to analyze.
-    - **Response**:
-      ```json
-      {
-         "number": 5,
-         "is_prime": true,
-         "is_even": false,
-         "factorial": 120
-      }
-      ```
-
-### 2. **POST /api/operations**
-    - **Description**: Performs operations on a list of numbers.
-    - **Request Body**:
-      ```json
-      {
-         "numbers": [1, 2, 3, 4],
-         "operation": "sum"
-      }
-      ```
-    - **Response**:
-      ```json
-      {
-         "result": 10
-      }
-      ```
-
-## Project Structure
-
-```
-Number_Wise_Flask_BackEnd/
-│
-├── app.py               # Main application file
-├── requirements.txt     # Python dependencies
-├── README.md            # Project documentation
-├── static/              # Static files (if any)
-├── templates/           # HTML templates (if any)
-└── tests/               # Unit tests using pytest
-```
-
-## Testing
-
-Run the tests using `pytest`:
-```bash
-pytest
-```
-
-## Contributing
-
-1. Fork the repository.
-2. Create a new branch:
-    ```bash
-    git checkout -b feature-name
-    ```
-3. Commit your changes:
-    ```bash
-    git commit -m "Add feature-name"
-    ```
-4. Push to the branch:
-    ```bash
-    git push origin feature-name
-    ```
-5. Open a pull request.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-For any questions or feedback, feel free to reach out at [your-email@example.com].
+1. **Prime Number Check**: Determines if a number is prime by checking divisibility from 2 to the square root of the number.
+2. **Palindrome Check**: Verifies if a number reads the same backward as forward.
+3. **Fibonacci Check**: Checks if a number belongs to the Fibonacci sequence using a mathematical property.
+4. **Lucas Number Check**: Determines if a number is part of the Lucas sequence, similar to Fibonacci but starting with 2 and 1.
+5. **Triangular Number Check**: Verifies if a number can form an equilateral triangle when represented as dots.
+6. **Pronic Number Check**: Checks if a number is the product of two consecutive integers.
+7. **Polite Number Check**: Determines if a number can be expressed as the sum of two or more consecutive positive integers.
+8. **Perfect Number Check**: Verifies if a number equals the sum of its proper divisors (excluding itself).
+9. **Pentatope Number Check**: Checks if a number represents a four-dimensional triangular pyramid.
+10. **Pentagonal Number Check**: Verifies if a number is part of the pentagonal number sequence.
+11. **Octagonal Number Check**: Determines if a number belongs to the octagonal number sequence.
+12. **Icosahedral Number Check**: Checks if a number represents a three-dimensional icosahedron structure.
+13. **Harshad Number Check**: Verifies if a number is divisible by the sum of its digits.
+14. **Fermat Number Check**: Determines if a number is of the form \(2^{2^n} + 1\).
+15. **Even Number Check**: Checks if a number is divisible by 2.
+16. **Deficient Number Check**: Verifies if the sum of a number's divisors (excluding itself) is less than the number.
+17. **Cullen Number Check**: Determines if a number is of the form \(n \cdot 2^n + 1\).
+18. **Catalan Number Check**: Verifies if a number belongs to the Catalan sequence, often used in combinatorics.
+19. **Automorphic Number Check**: Checks if a number's square ends with the number itself.
+20. **Sphenic Number Check**: Determines if a number is the product of exactly three distinct prime numbers.
