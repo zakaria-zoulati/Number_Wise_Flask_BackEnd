@@ -57,7 +57,7 @@ A Flask-based backend application designed to handle advanced number-related ope
    python app.py
    ```
 
-The application will be available at `http://localhost:5000`
+The application will be available at `http://localhost:8000`
 
 ## 🧮 Supported Algorithms
 
@@ -98,11 +98,12 @@ The application will be available at `http://localhost:5000`
 ```
 Number_Wise_Flask_BackEnd/
 ├── app.py                 # Main Flask application
-├── algorithms/            # Number theory implementations
-├── tests/                # Test files
+├── PythonAlgos.py            # Number theory implementations
+├── unitTests.py                # Test files
 ├── requirements.txt      # Dependencies
+├── utilities.py      # Helper functions, common operations
 └── README.md            # This documentation
-```
+
 
 ## 🤝 Contributing
 
