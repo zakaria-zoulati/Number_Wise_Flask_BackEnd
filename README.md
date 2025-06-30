@@ -87,9 +87,9 @@ Our comprehensive collection of number theory algorithms, organized by category:
 <details>
 <summary>View algorithms</summary>
 
-- ** Prime Number Check** - Efficient primality testing using square root optimization
-- ** Sphenic Number Check** - Numbers that are products of exactly three distinct primes  
-- ** Deficient Number Check** - Numbers where sum of proper divisors is less than the number
+-  Prime Number Check - Efficient primality testing using square root optimization
+-  Sphenic Number Check - Numbers that are products of exactly three distinct primes  
+-  Deficient Number Check - Numbers where sum of proper divisors is less than the number
 
 </details>
 
@@ -97,9 +97,9 @@ Our comprehensive collection of number theory algorithms, organized by category:
 <details>
 <summary>View algorithms</summary>
 
-- ** Perfect Number Check** - Numbers equal to sum of their proper divisors
-- ** Automorphic Number Check** - Numbers whose square ends with the number itself
-- ** Harshad Number Check** - Numbers divisible by the sum of their digits
+-  Perfect Number Check - Numbers equal to sum of their proper divisors
+-  Automorphic Number Check - Numbers whose square ends with the number itself
+-  Harshad Number Check - Numbers divisible by the sum of their digits
 
 </details>
 
@@ -107,11 +107,11 @@ Our comprehensive collection of number theory algorithms, organized by category:
 <details>
 <summary>View algorithms</summary>
 
-- ** Fibonacci Check** - Validates membership in the Fibonacci sequence
-- ** Lucas Number Check** - Checks Lucas sequence membership (starts with 2, 1)
-- ** Catalan Number Check** - Combinatorial sequence validation
-- ** Fermat Number Check** - Numbers of the form 2^(2^n) + 1
-- ** Cullen Number Check** - Numbers of the form n × 2^n + 1
+-  Fibonacci Check - Validates membership in the Fibonacci sequence
+-  Lucas Number Check - Checks Lucas sequence membership (starts with 2, 1)
+-  Catalan Number Check - Combinatorial sequence validation
+-  Fermat Number Check - Numbers of the form 2^(2^n) + 1
+-  Cullen Number Check - Numbers of the form n × 2^n + 1
 
 </details>
 
@@ -119,11 +119,11 @@ Our comprehensive collection of number theory algorithms, organized by category:
 <details>
 <summary>View algorithms</summary>
 
-- ** Triangular Number Check** - Numbers representing triangular dot patterns
-- **⬟Pentagonal Number Check** - Five-sided geometric number patterns
-- ** Octagonal Number Check** - Eight-sided geometric sequences
-- ** Pentatope Number Check** - Four-dimensional triangular pyramids
-- ** Icosahedral Number Check** - Three-dimensional icosahedron structures
+-  Triangular Number Check - Numbers representing triangular dot patterns
+-  Pentagonal Number Check - Five-sided geometric number patterns
+-  Octagonal Number Check - Eight-sided geometric sequences
+-  Pentatope Number Check - Four-dimensional triangular pyramids
+-  Icosahedral Number Check - Three-dimensional icosahedron structures
 
 </details>
 
@@ -131,10 +131,10 @@ Our comprehensive collection of number theory algorithms, organized by category:
 <details>
 <summary>View algorithms</summary>
 
-- ** Palindrome Check** - Numbers that read the same forwards and backwards
-- ** Pronic Number Check** - Products of two consecutive integers
-- ** Polite Number Check** - Expressible as sum of consecutive positive integers
-- **2️ Even Number Check** - Basic divisibility by 2
+-  Palindrome Check - Numbers that read the same forwards and backwards
+-  Pronic Number Check - Products of two consecutive integers
+-  Polite Number Check - Expressible as sum of consecutive positive integers
+-  Even Number Check  - Basic divisibility by 2
 
 </details>
 
