@@ -103,7 +103,7 @@ Our comprehensive collection of number theory algorithms, organized by category:
 
 </details>
 
-###  Sequence-Based Numbers
+###  Sequence-Based Number
 <details>
 <summary>View algorithms</summary>
 
@@ -127,14 +127,14 @@ Our comprehensive collection of number theory algorithms, organized by category:
 
 </details>
 
-### 🧮 Arithmetic Properties
+###  Arithmetic Properties
 <details>
 <summary>View algorithms</summary>
 
-- **🔄 Palindrome Check** - Numbers that read the same forwards and backwards
-- **➕ Pronic Number Check** - Products of two consecutive integers
-- **🤝 Polite Number Check** - Expressible as sum of consecutive positive integers
-- **2️⃣ Even Number Check** - Basic divisibility by 2
+- ** Palindrome Check** - Numbers that read the same forwards and backwards
+- ** Pronic Number Check** - Products of two consecutive integers
+- ** Polite Number Check** - Expressible as sum of consecutive positive integers
+- **2️ Even Number Check** - Basic divisibility by 2
 
 </details>
 
@@ -143,11 +143,11 @@ Our comprehensive collection of number theory algorithms, organized by category:
 ## 📁 Project Architecture
 
 ```
-📦 Number_Wise_Flask_BackEnd/
-├── 🚀 app.py                 # Main Flask application
-├── 🧮 PythonAlgos.py         # Number theory implementations
-├── 🧪 unitTests.py           # Comprehensive test suite
-├── 📋 requirements.txt       # Project dependencies
-├── 🛠️ utilities.py           # Helper functions & common operations  
-└── 📖 README.md              # Project documentation
+ Number_Wise_Flask_BackEnd/
+├──  app.py                 # Main Flask application
+├──  PythonAlgos.py         # Number theory implementations
+├──  unitTests.py           # Comprehensive test suite
+├──  requirements.txt       # Project dependencies
+├──  utilities.py           # Helper functions & common operations  
+└──  README.md              # Project documentation
 ```
