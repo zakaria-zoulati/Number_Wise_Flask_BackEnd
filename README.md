@@ -1,72 +1,114 @@
 # Number Wise Flask Backend
 
-This project is a Flask-based backend application designed to handle number-related operations. It provides a set of APIs to perform various mathematical and logical operations.
+A Flask-based backend application designed to handle advanced number-related operations and mathematical computations through a clean RESTful API.
 
 ![Technologies Used](https://img.shields.io/badge/Technologies-Flask%20%7C%20Python%20%7C%20Pytest%20%7C%20REST-blue)
 
-## Technologies Used
+## 🚀 Features
 
-The project leverages the following technologies:
+- **RESTful API Architecture** - Clean, intuitive endpoints for all number operations
+- **20+ Mathematical Algorithms** - Comprehensive collection of number theory implementations
+- **Production Ready** - Built with Flask for scalability and easy deployment
+- **Thoroughly Tested** - Complete test coverage using pytest
+- **Lightweight & Fast** - Minimal dependencies for quick deployment and high performance
 
-- **Flask**: A lightweight WSGI web application framework for Python.
-- **Python**: The core programming language used for development.
-- **Pytest**: A testing framework for writing and running unit tests.
-- **REST**: Architectural style for designing networked applications.
+## 🛠️ Technologies
 
----
+| Technology | Purpose |
+|------------|---------|
+| **Flask** | Lightweight WSGI web framework |
+| **Python** | Core programming language |
+| **Pytest** | Testing framework for unit tests |
+| **REST** | API architectural pattern |
 
-## Features
+## 📦 Installation
 
-- **RESTful API**: Easy-to-use endpoints for number operations.
-- **Scalable**: Built with Flask, allowing for easy scaling and integration.
-- **Lightweight**: Minimal dependencies for quick deployment.
-- **Tested**: Includes unit tests using `pytest` for robust functionality.
+### Prerequisites
+- Python 3.7 or higher
+- pip package manager
 
-## Installation
+### Setup Steps
 
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/zakaria-zoulati/Number_Wise_Flask_BackEnd.git
-    cd Number_Wise_Flask_BackEnd
-    ```
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/zakaria-zoulati/Number_Wise_Flask_BackEnd.git
+   cd Number_Wise_Flask_BackEnd
+   ```
 
-2. Create a virtual environment:
-    ```bash
-    python -m venv venv
-    source venv/bin/activate  # On Windows: venv\Scripts\activate
-    ```
+2. **Create virtual environment**
+   ```bash
+   python -m venv venv
+   
+   # Activate virtual environment
+   # On Linux/macOS:
+   source venv/bin/activate
+   
+   # On Windows:
+   venv\Scripts\activate
+   ```
 
-3. Install dependencies:
-    ```bash
-    pip install -r requirements.txt
-    ```
+3. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-4. Run the application:
-    ```bash
-    python app.py
-    ```
+4. **Run the application**
+   ```bash
+   python app.py
+   ```
 
-## Algorithms Used
+The application will be available at `http://localhost:5000`
 
-### Number Theory Algorithms
+## 🧮 Supported Algorithms
 
-1. **Prime Number Check**: Determines if a number is prime by checking divisibility from 2 to the square root of the number.
-2. **Palindrome Check**: Verifies if a number reads the same backward as forward.
-3. **Fibonacci Check**: Checks if a number belongs to the Fibonacci sequence using a mathematical property.
-4. **Lucas Number Check**: Determines if a number is part of the Lucas sequence, similar to Fibonacci but starting with 2 and 1.
-5. **Triangular Number Check**: Verifies if a number can form an equilateral triangle when represented as dots.
-6. **Pronic Number Check**: Checks if a number is the product of two consecutive integers.
-7. **Polite Number Check**: Determines if a number can be expressed as the sum of two or more consecutive positive integers.
-8. **Perfect Number Check**: Verifies if a number equals the sum of its proper divisors (excluding itself).
-9. **Pentatope Number Check**: Checks if a number represents a four-dimensional triangular pyramid.
-10. **Pentagonal Number Check**: Verifies if a number is part of the pentagonal number sequence.
-11. **Octagonal Number Check**: Determines if a number belongs to the octagonal number sequence.
-12. **Icosahedral Number Check**: Checks if a number represents a three-dimensional icosahedron structure.
-13. **Harshad Number Check**: Verifies if a number is divisible by the sum of its digits.
-14. **Fermat Number Check**: Determines if a number is of the form \(2^{2^n} + 1\).
-15. **Even Number Check**: Checks if a number is divisible by 2.
-16. **Deficient Number Check**: Verifies if the sum of a number's divisors (excluding itself) is less than the number.
-17. **Cullen Number Check**: Determines if a number is of the form \(n \cdot 2^n + 1\).
-18. **Catalan Number Check**: Verifies if a number belongs to the Catalan sequence, often used in combinatorics.
-19. **Automorphic Number Check**: Checks if a number's square ends with the number itself.
-20. **Sphenic Number Check**: Determines if a number is the product of exactly three distinct prime numbers.
+### Prime & Composite Numbers
+- **Prime Number Check** - Efficient primality testing using square root optimization
+- **Sphenic Number Check** - Numbers that are products of exactly three distinct primes
+- **Deficient Number Check** - Numbers where sum of proper divisors is less than the number
+
+### Perfect & Special Numbers
+- **Perfect Number Check** - Numbers equal to sum of their proper divisors
+- **Automorphic Number Check** - Numbers whose square ends with the number itself
+- **Harshad Number Check** - Numbers divisible by the sum of their digits
+
+### Sequence-Based Numbers
+- **Fibonacci Check** - Validates membership in the Fibonacci sequence
+- **Lucas Number Check** - Checks Lucas sequence membership (starts with 2, 1)
+- **Catalan Number Check** - Combinatorial sequence validation
+- **Fermat Number Check** - Numbers of the form 2^(2^n) + 1
+- **Cullen Number Check** - Numbers of the form n × 2^n + 1
+
+### Geometric Numbers
+- **Triangular Number Check** - Numbers representing triangular dot patterns
+- **Pentagonal Number Check** - Five-sided geometric number patterns
+- **Octagonal Number Check** - Eight-sided geometric sequences
+- **Pentatope Number Check** - Four-dimensional triangular pyramids
+- **Icosahedral Number Check** - Three-dimensional icosahedron structures
+
+### Arithmetic Properties
+- **Palindrome Check** - Numbers that read the same forwards and backwards
+- **Pronic Number Check** - Products of two consecutive integers
+- **Polite Number Check** - Expressible as sum of consecutive positive integers
+- **Even Number Check** - Basic divisibility by 2
+
+
+
+## 📁 Project Structure
+
+```
+Number_Wise_Flask_BackEnd/
+├── app.py                 # Main Flask application
+├── algorithms/            # Number theory implementations
+├── tests/                # Test files
+├── requirements.txt      # Dependencies
+└── README.md            # This documentation
+```
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/new-algorithm`)
+3. Commit your changes (`git commit -am 'Add new algorithm'`)
+4. Push to the branch (`git push origin feature/new-algorithm`)
+5. Create a Pull Request
+
