@@ -1,5 +1,5 @@
 from flask import Flask , request , jsonify
-from PythonAlgos import is_prime , is_palindromic , is_fibonacci , is_Lucas , is_triangular , is_pronic , is_polite , is_perfect , is_pentatope , is_pentagonal , is_octagonal , is_icosahedral , is_harshad , is_fermat , is_even,  is_deficient , is_cullen , is_catalan , is_automorphic , is_sphenic
+from PythonAlgos import *
 app = Flask(__name__)
 
 @app.route('/isPrime', methods=['GET'])
