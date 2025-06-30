@@ -62,34 +62,34 @@ The application will be available at `http://localhost:8000`
 ## 🧮 Supported Algorithms
 
 ### Prime & Composite Numbers
-- **Prime Number Check** - Efficient primality testing using square root optimization
-- **Sphenic Number Check** - Numbers that are products of exactly three distinct primes
-- **Deficient Number Check** - Numbers where sum of proper divisors is less than the number
+- **Prime Number Check**       Efficient primality testing using square root optimization
+- **Sphenic Number Check**     Numbers that are products of exactly three distinct primes
+- **Deficient Number Check**   Numbers where sum of proper divisors is less than the number
 
 ### Perfect & Special Numbers
-- **Perfect Number Check** - Numbers equal to sum of their proper divisors
-- **Automorphic Number Check** - Numbers whose square ends with the number itself
-- **Harshad Number Check** - Numbers divisible by the sum of their digits
+- **Perfect Number Check**       Numbers equal to sum of their proper divisors
+- **Automorphic Number Check**   Numbers whose square ends with the number itself
+- **Harshad Number Check**       Numbers divisible by the sum of their digits
 
-### Sequence-Based Numbers
-- **Fibonacci Check** - Validates membership in the Fibonacci sequence
-- **Lucas Number Check** - Checks Lucas sequence membership (starts with 2, 1)
-- **Catalan Number Check** - Combinatorial sequence validation
-- **Fermat Number Check** - Numbers of the form 2^(2^n) + 1
-- **Cullen Number Check** - Numbers of the form n × 2^n + 1
+### Sequence-Based Numbers 
+- **Fibonacci Check**        Validates membership in the Fibonacci sequence
+- **Lucas Number Check**     Checks Lucas sequence membership (starts with 2, 1)
+- **Catalan Number Check**   Combinatorial sequence validation
+- **Fermat Number Check**    Numbers of the form 2^(2^n) + 1
+- **Cullen Number Check**    Numbers of the form n × 2^n + 1
 
 ### Geometric Numbers
-- **Triangular Number Check** - Numbers representing triangular dot patterns
-- **Pentagonal Number Check** - Five-sided geometric number patterns
-- **Octagonal Number Check** - Eight-sided geometric sequences
-- **Pentatope Number Check** - Four-dimensional triangular pyramids
-- **Icosahedral Number Check** - Three-dimensional icosahedron structures
+- **Triangular Number Check**    Numbers representing triangular dot patterns
+- **Pentagonal Number Check**    Five-sided geometric number patterns
+- **Octagonal Number Check**     Eight-sided geometric sequences
+- **Pentatope Number Check**     Four-dimensional triangular pyramids
+- **Icosahedral Number Check**   Three-dimensional icosahedron structures
 
 ### Arithmetic Properties
-- **Palindrome Check** - Numbers that read the same forwards and backwards
-- **Pronic Number Check** - Products of two consecutive integers
-- **Polite Number Check** - Expressible as sum of consecutive positive integers
-- **Even Number Check** - Basic divisibility by 2
+- **Palindrome Check**      Numbers that read the same forwards and backwards
+- **Pronic Number Check**   Products of two consecutive integers
+- **Polite Number Check**   Expressible as sum of consecutive positive integers
+- **Even Number Check**     Basic divisibility by 2
 
 
 
@@ -98,11 +98,11 @@ The application will be available at `http://localhost:8000`
 ```
 Number_Wise_Flask_BackEnd/
 ├── app.py                 # Main Flask application
-├── PythonAlgos.py            # Number theory implementations
-├── unitTests.py                # Test files
-├── requirements.txt      # Dependencies
-├── utilities.py      # Helper functions, common operations
-└── README.md            # This documentation
+├── PythonAlgos.py         # Number theory implementations
+├── unitTests.py           # Test files
+├── requirements.txt       # Dependencies
+├── utilities.py           # Helper functions, common operations
+└── README.md              # This documentation
 
 
 ## 🤝 Contributing
