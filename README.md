@@ -1,115 +1,209 @@
-# Number Wise Flask Backend
+# 🔢 Number Wise Flask Backend
 
-A Flask-based backend application designed to handle advanced number-related operations and mathematical computations through a clean RESTful API.
+> A powerful Flask-based backend application designed to handle advanced number-related operations and mathematical computations through a clean RESTful API.
 
-![Technologies Used](https://img.shields.io/badge/Technologies-Flask%20%7C%20Python%20%7C%20Pytest%20%7C%20REST-blue)
+[![Technologies](https://img.shields.io/badge/Technologies-Flask%20%7C%20Python%20%7C%20Pytest%20%7C%20REST-blue)](https://github.com/zakaria-zoulati/Number_Wise_Flask_BackEnd)
+[![Python](https://img.shields.io/badge/Python-3.7+-green.svg)](https://python.org)
+[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-## 🚀 Features
+---
 
-- **RESTful API Architecture** - Clean, intuitive endpoints for all number operations
-- **20+ Mathematical Algorithms** - Comprehensive collection of number theory implementations
-- **Production Ready** - Built with Flask for scalability and easy deployment
-- **Thoroughly Tested** - Complete test coverage using pytest
-- **Lightweight & Fast** - Minimal dependencies for quick deployment and high performance
+## ✨ Features
 
-## 🛠️ Technologies
+🎯 **RESTful API Architecture** - Clean, intuitive endpoints for all number operations  
+🧮 **20+ Mathematical Algorithms** - Comprehensive collection of number theory implementations  
+🚀 **Production Ready** - Built with Flask for scalability and easy deployment  
+🧪 **Thoroughly Tested** - Complete test coverage using pytest  
+⚡ **Lightweight & Fast** - Minimal dependencies for quick deployment and high performance
 
-| Technology | Purpose |
-|------------|---------|
-| **Flask** | Lightweight WSGI web framework |
-| **Python** | Core programming language |
-| **Pytest** | Testing framework for unit tests |
-| **REST** | API architectural pattern |
+---
 
-## 📦 Installation
+## 🛠️ Tech Stack
+
+<div align="center">
+
+| Technology | Purpose | Version |
+|:----------:|---------|:-------:|
+| ![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white) | Lightweight WSGI web framework | Latest |
+| ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) | Core programming language | 3.7+ |
+| ![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=flat&logo=pytest&logoColor=white) | Testing framework for unit tests | Latest |
+| ![REST](https://img.shields.io/badge/REST-FF6B35?style=flat&logo=rest&logoColor=white) | API architectural pattern | - |
+
+</div>
+
+---
+
+## 🚀 Quick Start
 
 ### Prerequisites
-- Python 3.7 or higher
-- pip package manager
 
-### Setup Steps
+Before you begin, ensure you have the following installed:
+- 🐍 Python 3.7 or higher
+- 📦 pip package manager
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/zakaria-zoulati/Number_Wise_Flask_BackEnd.git
-   cd Number_Wise_Flask_BackEnd
-   ```
+### Installation
 
-2. **Create virtual environment**
-   ```bash
-   python -m venv venv
-   
-   # Activate virtual environment
-   # On Linux/macOS:
-   source venv/bin/activate
-   
-   # On Windows:
-   venv\Scripts\activate
-   ```
+<details>
+<summary><b>📋 Step-by-step setup</b></summary>
 
-3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
+#### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/zakaria-zoulati/Number_Wise_Flask_BackEnd.git
+cd Number_Wise_Flask_BackEnd
+```
 
-4. **Run the application**
-   ```bash
-   python app.py
-   ```
+#### 2️⃣ Create virtual environment
+```bash
+python -m venv venv
 
-The application will be available at `http://localhost:8000`
+# Activate virtual environment
+# 🐧 Linux/macOS:
+source venv/bin/activate
 
-## 🧮 Supported Algorithms
+# 🪟 Windows:
+venv\Scripts\activate
+```
 
-### Prime & Composite Numbers
-- **Prime Number Check**       Efficient primality testing using square root optimization
-- **Sphenic Number Check**     Numbers that are products of exactly three distinct primes
-- **Deficient Number Check**   Numbers where sum of proper divisors is less than the number
+#### 3️⃣ Install dependencies
+```bash
+pip install -r requirements.txt
+```
 
-### Perfect & Special Numbers
-- **Perfect Number Check**       Numbers equal to sum of their proper divisors
-- **Automorphic Number Check**   Numbers whose square ends with the number itself
-- **Harshad Number Check**       Numbers divisible by the sum of their digits
+#### 4️⃣ Launch the application
+```bash
+python app.py
+```
 
-### Sequence-Based Numbers 
-- **Fibonacci Check**        Validates membership in the Fibonacci sequence
-- **Lucas Number Check**     Checks Lucas sequence membership (starts with 2, 1)
-- **Catalan Number Check**   Combinatorial sequence validation
-- **Fermat Number Check**    Numbers of the form 2^(2^n) + 1
-- **Cullen Number Check**    Numbers of the form n × 2^n + 1
+</details>
 
-### Geometric Numbers
-- **Triangular Number Check**    Numbers representing triangular dot patterns
-- **Pentagonal Number Check**    Five-sided geometric number patterns
-- **Octagonal Number Check**     Eight-sided geometric sequences
-- **Pentatope Number Check**     Four-dimensional triangular pyramids
-- **Icosahedral Number Check**   Three-dimensional icosahedron structures
+🌐 **Access the API at:** `http://localhost:8000`
 
-### Arithmetic Properties
-- **Palindrome Check**      Numbers that read the same forwards and backwards
-- **Pronic Number Check**   Products of two consecutive integers
-- **Polite Number Check**   Expressible as sum of consecutive positive integers
-- **Even Number Check**     Basic divisibility by 2
+---
 
+## 🧮 Mathematical Algorithms
 
+Our comprehensive collection of number theory algorithms, organized by category:
 
-## 📁 Project Structure
+### 🔢 Prime & Composite Numbers
+<details>
+<summary>View algorithms</summary>
+
+- **🔍 Prime Number Check** - Efficient primality testing using square root optimization
+- **🎯 Sphenic Number Check** - Numbers that are products of exactly three distinct primes  
+- **📉 Deficient Number Check** - Numbers where sum of proper divisors is less than the number
+
+</details>
+
+### ⭐ Perfect & Special Numbers
+<details>
+<summary>View algorithms</summary>
+
+- **💎 Perfect Number Check** - Numbers equal to sum of their proper divisors
+- **🔄 Automorphic Number Check** - Numbers whose square ends with the number itself
+- **✨ Harshad Number Check** - Numbers divisible by the sum of their digits
+
+</details>
+
+### 🔗 Sequence-Based Numbers
+<details>
+<summary>View algorithms</summary>
+
+- **🌀 Fibonacci Check** - Validates membership in the Fibonacci sequence
+- **🔢 Lucas Number Check** - Checks Lucas sequence membership (starts with 2, 1)
+- **📐 Catalan Number Check** - Combinatorial sequence validation
+- **⚡ Fermat Number Check** - Numbers of the form 2^(2^n) + 1
+- **🎯 Cullen Number Check** - Numbers of the form n × 2^n + 1
+
+</details>
+
+### 📐 Geometric Numbers
+<details>
+<summary>View algorithms</summary>
+
+- **🔺 Triangular Number Check** - Numbers representing triangular dot patterns
+- **⬟ Pentagonal Number Check** - Five-sided geometric number patterns
+- **🛑 Octagonal Number Check** - Eight-sided geometric sequences
+- **🔷 Pentatope Number Check** - Four-dimensional triangular pyramids
+- **⚽ Icosahedral Number Check** - Three-dimensional icosahedron structures
+
+</details>
+
+### 🧮 Arithmetic Properties
+<details>
+<summary>View algorithms</summary>
+
+- **🔄 Palindrome Check** - Numbers that read the same forwards and backwards
+- **➕ Pronic Number Check** - Products of two consecutive integers
+- **🤝 Polite Number Check** - Expressible as sum of consecutive positive integers
+- **2️⃣ Even Number Check** - Basic divisibility by 2
+
+</details>
+
+---
+
+## 📁 Project Architecture
 
 ```
-Number_Wise_Flask_BackEnd/
-├── app.py                 # Main Flask application
-├── PythonAlgos.py         # Number theory implementations
-├── unitTests.py           # Test files
-├── requirements.txt       # Dependencies
-├── utilities.py           # Helper functions, common operations
-└── README.md              # This documentation
+📦 Number_Wise_Flask_BackEnd/
+├── 🚀 app.py                 # Main Flask application
+├── 🧮 PythonAlgos.py         # Number theory implementations
+├── 🧪 unitTests.py           # Comprehensive test suite
+├── 📋 requirements.txt       # Project dependencies
+├── 🛠️ utilities.py           # Helper functions & common operations  
+└── 📖 README.md              # Project documentation
+```
 
+---
 
 ## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/new-algorithm`)
-3. Commit your changes (`git commit -am 'Add new algorithm'`)
-4. Push to the branch (`git push origin feature/new-algorithm`)
-5. Create a Pull Request
+We welcome contributions! Here's how you can help improve the project:
 
+### 🔄 Contribution Workflow
+
+1. **🍴 Fork** the repository
+2. **🌱 Create** a feature branch 
+   ```bash
+   git checkout -b feature/awesome-new-algorithm
+   ```
+3. **💾 Commit** your changes
+   ```bash
+   git commit -am 'Add awesome new algorithm'
+   ```
+4. **🚀 Push** to the branch
+   ```bash
+   git push origin feature/awesome-new-algorithm
+   ```
+5. **📋 Create** a Pull Request
+
+### 💡 What to Contribute
+- 🧮 New mathematical algorithms
+- 🧪 Additional test cases
+- 📚 Documentation improvements
+- 🐛 Bug fixes and optimizations
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+- Thanks to all contributors who have helped shape this project
+- Inspired by the beauty of number theory and mathematical algorithms
+- Built with ❤️ for the developer community
+
+---
+
+<div align="center">
+
+**⭐ Star this repo if you find it helpful!**
+
+[🐛 Report Bug](https://github.com/zakaria-zoulati/Number_Wise_Flask_BackEnd/issues) • 
+[✨ Request Feature](https://github.com/zakaria-zoulati/Number_Wise_Flask_BackEnd/issues) • 
+[📖 Documentation](https://github.com/zakaria-zoulati/Number_Wise_Flask_BackEnd)
+
+</div>
