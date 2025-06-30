@@ -4,7 +4,6 @@
 
 [![Technologies](https://img.shields.io/badge/Technologies-Flask%20%7C%20Python%20%7C%20Pytest%20%7C%20REST-blue)](https://github.com/zakaria-zoulati/Number_Wise_Flask_BackEnd)
 [![Python](https://img.shields.io/badge/Python-3.7+-green.svg)](https://python.org)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ---
 
@@ -84,47 +83,47 @@ python app.py
 
 Our comprehensive collection of number theory algorithms, organized by category:
 
-### 🔢 Prime & Composite Numbers
+###  Prime & Composite Numbers
 <details>
 <summary>View algorithms</summary>
 
-- **🔍 Prime Number Check** - Efficient primality testing using square root optimization
-- **🎯 Sphenic Number Check** - Numbers that are products of exactly three distinct primes  
-- **📉 Deficient Number Check** - Numbers where sum of proper divisors is less than the number
+- ** Prime Number Check** - Efficient primality testing using square root optimization
+- ** Sphenic Number Check** - Numbers that are products of exactly three distinct primes  
+- ** Deficient Number Check** - Numbers where sum of proper divisors is less than the number
 
 </details>
 
-### ⭐ Perfect & Special Numbers
+###  Perfect & Special Numbers
 <details>
 <summary>View algorithms</summary>
 
-- **💎 Perfect Number Check** - Numbers equal to sum of their proper divisors
-- **🔄 Automorphic Number Check** - Numbers whose square ends with the number itself
-- **✨ Harshad Number Check** - Numbers divisible by the sum of their digits
+- ** Perfect Number Check** - Numbers equal to sum of their proper divisors
+- ** Automorphic Number Check** - Numbers whose square ends with the number itself
+- ** Harshad Number Check** - Numbers divisible by the sum of their digits
 
 </details>
 
-### 🔗 Sequence-Based Numbers
+###  Sequence-Based Numbers
 <details>
 <summary>View algorithms</summary>
 
-- **🌀 Fibonacci Check** - Validates membership in the Fibonacci sequence
-- **🔢 Lucas Number Check** - Checks Lucas sequence membership (starts with 2, 1)
-- **📐 Catalan Number Check** - Combinatorial sequence validation
-- **⚡ Fermat Number Check** - Numbers of the form 2^(2^n) + 1
-- **🎯 Cullen Number Check** - Numbers of the form n × 2^n + 1
+- ** Fibonacci Check** - Validates membership in the Fibonacci sequence
+- ** Lucas Number Check** - Checks Lucas sequence membership (starts with 2, 1)
+- ** Catalan Number Check** - Combinatorial sequence validation
+- ** Fermat Number Check** - Numbers of the form 2^(2^n) + 1
+- ** Cullen Number Check** - Numbers of the form n × 2^n + 1
 
 </details>
 
-### 📐 Geometric Numbers
+###  Geometric Numbers
 <details>
 <summary>View algorithms</summary>
 
-- **🔺 Triangular Number Check** - Numbers representing triangular dot patterns
-- **⬟ Pentagonal Number Check** - Five-sided geometric number patterns
-- **🛑 Octagonal Number Check** - Eight-sided geometric sequences
-- **🔷 Pentatope Number Check** - Four-dimensional triangular pyramids
-- **⚽ Icosahedral Number Check** - Three-dimensional icosahedron structures
+- ** Triangular Number Check** - Numbers representing triangular dot patterns
+- **⬟Pentagonal Number Check** - Five-sided geometric number patterns
+- ** Octagonal Number Check** - Eight-sided geometric sequences
+- ** Pentatope Number Check** - Four-dimensional triangular pyramids
+- ** Icosahedral Number Check** - Three-dimensional icosahedron structures
 
 </details>
 
@@ -152,58 +151,3 @@ Our comprehensive collection of number theory algorithms, organized by category:
 ├── 🛠️ utilities.py           # Helper functions & common operations  
 └── 📖 README.md              # Project documentation
 ```
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! Here's how you can help improve the project:
-
-### 🔄 Contribution Workflow
-
-1. **🍴 Fork** the repository
-2. **🌱 Create** a feature branch 
-   ```bash
-   git checkout -b feature/awesome-new-algorithm
-   ```
-3. **💾 Commit** your changes
-   ```bash
-   git commit -am 'Add awesome new algorithm'
-   ```
-4. **🚀 Push** to the branch
-   ```bash
-   git push origin feature/awesome-new-algorithm
-   ```
-5. **📋 Create** a Pull Request
-
-### 💡 What to Contribute
-- 🧮 New mathematical algorithms
-- 🧪 Additional test cases
-- 📚 Documentation improvements
-- 🐛 Bug fixes and optimizations
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- Thanks to all contributors who have helped shape this project
-- Inspired by the beauty of number theory and mathematical algorithms
-- Built with ❤️ for the developer community
-
----
-
-<div align="center">
-
-**⭐ Star this repo if you find it helpful!**
-
-[🐛 Report Bug](https://github.com/zakaria-zoulati/Number_Wise_Flask_BackEnd/issues) • 
-[✨ Request Feature](https://github.com/zakaria-zoulati/Number_Wise_Flask_BackEnd/issues) • 
-[📖 Documentation](https://github.com/zakaria-zoulati/Number_Wise_Flask_BackEnd)
-
-</div>
